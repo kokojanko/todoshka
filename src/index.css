@@ -37,3 +37,7 @@ code {
 .done{
   text-decoration: line-through;
 }
+.AddTodo{
+  margin-bottom: 1rem;
+  
+}
