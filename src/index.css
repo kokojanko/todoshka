@@ -16,3 +16,21 @@ code {
   margin: 0px auto;
   width: 600px;
 }
+.listi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+.yesOrno{
+  margin-right: 1rem;
+}
+.rm{
+  background: red;
+  border-radius: 50%;
+  color: white;
+  border: none;
+}
