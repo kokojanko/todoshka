@@ -13,12 +13,12 @@ export default function TodoList(props) {
     return(
         <ul style={styles.ul}>
             {
-                props.todos.map(todo =>{
+                props.todos.map((todo, index) =>{
                     return(
-                        <TodoItem todo={todo} key={todo.id} />
+                        <TodoItem todo={todo} key={todo.id} index={index}/>
                     )
                 })
             }
-        </ul>
+        </ul> 
     )
 }
